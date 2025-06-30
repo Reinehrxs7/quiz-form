@@ -1,0 +1,75 @@
+* {
+        font-family: "Edu QLD Hand", cursive;
+        font-optical-sizing: auto;
+        font-style: normal;
+      }
+      body {
+        font-family: "Arial", sans-serif;
+        text-align: center;
+        background-color: #222;
+        color: white;
+        margin: 0;
+        padding: 20px;
+        background-image: url("tuba4k.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      h1 {
+        font-size: 2em;
+      }
+      #quiz-container {
+        margin: 20px auto;
+        width: 80%;
+        max-width: 700px;
+        padding: 20px;
+        border-radius: 10px;
+        background: rgba(0, 0, 0, 0.6);
+        box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+      }
+      .question {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+      }
+      .question label {
+        display: block;
+        background: rgba(255, 255, 255, 0.1);
+        padding: 12px;
+        margin: 10px auto;
+        border-radius: 5px;
+        font-size: 1.1em;
+        cursor: pointer;
+        transition: background 0.3s, transform 0.2s;
+        width: 80%;
+        max-width: 500px;
+        text-align: left;
+      }
+      .question label:hover {
+        background: rgba(247, 243, 243, 0.4);
+        transform: scale(1.03);
+      }
+      .question input[type="radio"] {
+        margin-right: 10px;
+        transform: scale(1.2);
+      }
+      button {
+        display: inline-block;
+        margin: 20px auto 10px;
+        padding: 14px 36px;
+        background-color: rgba(247, 243, 243, 0.4);
+        color: black;
+        border-radius: 20px;
+        font-size: 1em;
+        cursor: pointer;
+        border: none;
+        transition: background 0.3s;
+      }
+      button:hover {
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+      }
+      .resultado {
+        font-weight: bold;
+        font-size: 1.4em;
+        margin-top: 20px;
+      }

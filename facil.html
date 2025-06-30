@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Quiz Estilizado</title>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+QLD+Hand&display=swap" />
+    <link rel="stylesheet" href="pergunta.css" />
+  </head>
+  <body>
+    <h1>Desafio do Conhecimento</h1>
+    <div id="quiz-container">
+      <form id="quizForm">
+        <div class="question">
+          <p>1. Qual é o maior tubarão do mundo?</p>
+          <label
+            ><input type="radio" name="q1" value="0" /> Tubarão-martelo</label
+          >
+          <label
+            ><input type="radio" name="q1" value="1" /> Tubarão-branco</label
+          >
+          <label
+            ><input type="radio" name="q1" value="2" /> Tubarão-baleia</label
+          >
+          <label
+            ><input type="radio" name="q1" value="3" /> Tubarão-tigre</label
+          >
+        </div>
+
+        <div class="question">
+          <p>2. Quantas filas de dentes um tubarão normalmente tem?</p>
+          <label><input type="radio" name="q2" value="0" /> 1</label>
+          <label><input type="radio" name="q2" value="1" /> 2</label>
+          <label><input type="radio" name="q2" value="2" /> 5</label>
+          <label><input type="radio" name="q2" value="3" /> 10</label>
+        </div>
+
+        <div class="question">
+          <p>3. O que um tubarão usa para detectar suas presas?</p>
+          <label><input type="radio" name="q3" value="0" /> Nariz</label>
+          <label><input type="radio" name="q3" value="1" /> Sonar</label>
+          <label
+            ><input type="radio" name="q3" value="2" /> Eletro-receptores</label
+          >
+          <label><input type="radio" name="q3" value="3" /> Voz</label>
+        </div>
+
+        <div class="question">
+          <p>4. Os tubarões são peixes ou mamíferos?</p>
+          <label><input type="radio" name="q4" value="0" /> Peixes</label>
+          <label><input type="radio" name="q4" value="1" /> Mamíferos</label>
+          <label><input type="radio" name="q4" value="2" /> Anfíbios</label>
+          <label><input type="radio" name="q4" value="3" /> Répteis</label>
+        </div>
+
+        <div class="question">
+          <p>5. Qual dessas espécies é famosa no filme Tubarão?</p>
+          <label
+            ><input type="radio" name="q5" value="0" /> Tubarão-tigre</label
+          >
+          <label
+            ><input type="radio" name="q5" value="1" /> Tubarão-branco</label
+          >
+          <label
+            ><input type="radio" name="q5" value="2" /> Tubarão-martelo</label
+          >
+          <label
+            ><input type="radio" name="q5" value="3" /> Tubarão-baleia</label
+          >
+        </div>
+
+        <div class="question">
+          <p>6. Onde os tubarões vivem?</p>
+          <label><input type="radio" name="q6" value="0" /> No deserto</label>
+          <label><input type="radio" name="q6" value="1" /> Na selva</label>
+          <label><input type="radio" name="q6" value="2" /> No oceano</label>
+          <label><input type="radio" name="q6" value="3" /> No gelo</label>
+        </div>
+
+        <div class="question">
+          <p>7. Qual é a principal fonte de alimento do tubarão branco?</p>
+          <label><input type="radio" name="q7" value="0" /> Peixes</label>
+          <label><input type="radio" name="q7" value="1" /> Plâncton</label>
+          <label><input type="radio" name="q7" value="2" /> Frutas</label>
+          <label><input type="radio" name="q7" value="3" /> Grama</label>
+        </div>
+
+        <div class="question">
+          <p>8. Os tubarões precisam de água salgada para sobreviver?</p>
+          <label><input type="radio" name="q8" value="0" /> Sim</label>
+          <label><input type="radio" name="q8" value="1" /> Não</label>
+          <label><input type="radio" name="q8" value="2" /> só água doce</label>
+          <label
+            ><input type="radio" name="q8" value="3" /> Algumas espécies podem
+            viver em ambos</label
+          >
+          <label
+            ><input type="radio" name="q8" value="4" /> Nenhuma das
+            anteriores</label
+          >
+        </div>
+
+        <div class="question">
+          <p>9. Como os tubarões respiram?</p>
+          <label><input type="radio" name="q9" value="0" /> Pela pele</label>
+          <label><input type="radio" name="q9" value="1" /> Com pulmões</label>
+          <label
+            ><input type="radio" name="q9" value="2" /> Através das
+            brânquias</label
+          >
+          <label><input type="radio" name="q9" value="3" /> Pelo nariz</label>
+        </div>
+
+        <div class="question">
+          <p>10. Os tubarões podem regenerar seus dentes?</p>
+          <label><input type="radio" name="q10" value="0" /> Sim</label>
+          <label><input type="radio" name="q10" value="1" /> Não</label>
+          <label
+            ><input type="radio" name="q10" value="2" /> Apenas uma vez na
+            vida</label
+          >
+          <label
+            ><input type="radio" name="q10" value="3" /> Apenas se
+            machucarem</label
+          >
+        </div>
+
+        <button type="button" onclick="verificarRespostas()">Enviar</button>
+        <div class="resultado" id="resultado"></div>
+      </form>
+    </div>
+
+    <script src="facil.js"></script>
+  </body>
+</html>
