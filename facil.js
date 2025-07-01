@@ -12,3 +12,11 @@ function verificarRespostas() {
     document.getElementById("resultado").textContent =
       `Você acertou ${acertos} de 10 perguntas.`;
   }
+
+document.getElementById("quizForm").addEventListener("submit", function(event) {
+  event.preventDefault(); // Impede o envio tradicional do form
+  verificarRespostas();   // Chama sua função que mostra os acertos
+});
+function menu(){
+    window.location.href="index.html";
+  }
