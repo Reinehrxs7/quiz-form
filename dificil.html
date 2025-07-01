@@ -2,26 +2,187 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quiz dos Tubarões</title>
+    <title>Quiz Estilizado</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+QLD+Hand&display=swap"
+    />
     <link rel="stylesheet" href="pergunta.css" />
   </head>
   <body>
+    <h1>Desafio do Conhecimento</h1>
     <div id="quiz-container">
-      <h1>Quiz dos Tubarões</h1>
-      <p id="score">Acertos: 0</p>
+      <form id="quizForm">
+        <div class="question">
+          <p>
+            1. Qual é o nome da estrutura que os tubarões usam para detectar
+            campos elétricos?
+          </p>
+          <label
+            ><input type="radio" name="q13" value="0" /> Ampolas de
+            Lorenzini</label
+          >
+          <label
+            ><input type="radio" name="q13" value="1" /> Células de
+            Malpighi</label
+          >
+          <label
+            ><input type="radio" name="q13" value="2" /> Órgãos de Golgi</label
+          >
+          <label
+            ><input type="radio" name="q13" value="3" /> Corpúsculos de
+            Pacini</label
+          >
+        </div>
 
-      <form id="quiz-form">
-        <p id="question-text"></p>
-        <div id="options"></div>
-        <button type="submit">Responder</button>
+        <div class="question">
+          <p>
+            2. Qual tubarão pode sobreviver em água doce por períodos
+            prolongados?
+          </p>
+          <label
+            ><input type="radio" name="q14" value="0" /> Tubarão-mako</label
+          >
+          <label
+            ><input type="radio" name="q14" value="1" /> Tubarão-baleia</label
+          >
+          <label
+            ><input type="radio" name="q14" value="2" />
+            Tubarão-cabeça-chata</label
+          >
+          <label
+            ><input type="radio" name="q14" value="3" /> Tubarão-martelo</label
+          >
+        </div>
+
+        <div class="question">
+          <p>
+            3. Quantos anos estima-se que os tubarões tenham existido na Terra?
+          </p>
+          <label><input type="radio" name="q15" value="0" /> 10 milhões</label>
+          <label><input type="radio" name="q15" value="1" /> 50 milhões</label>
+          <label><input type="radio" name="q15" value="2" /> 100 milhões</label>
+          <label><input type="radio" name="q15" value="3" /> 400 milhões</label>
+        </div>
+
+        <div class="question">
+          <p>4. Qual é a espécie de tubarão mais rápida registrada?</p>
+          <label
+            ><input type="radio" name="q16" value="0" /> Tubarão-branco</label
+          >
+          <label
+            ><input type="radio" name="q16" value="1" /> Tubarão-mako</label
+          >
+          <label
+            ><input type="radio" name="q16" value="2" /> Tubarão-tigre</label
+          >
+          <label
+            ><input type="radio" name="q16" value="3" /> Tubarão-lixa</label
+          >
+        </div>
+
+        <div class="question">
+          <p>
+            5. Qual tubarão é conhecido por sua capacidade de andar no fundo do
+            oceano?
+          </p>
+          <label
+            ><input type="radio" name="q17" value="0" /> Tubarão-zebra</label
+          >
+          <label
+            ><input type="radio" name="q17" value="1" /> Tubarão-cobre</label
+          >
+          <label
+            ><input type="radio" name="q17" value="2" />
+            Tubarão-epaulette</label
+          >
+          <label
+            ><input type="radio" name="q17" value="3" /> Tubarão-martelo</label
+          >
+        </div>
+
+        <div class="question">
+          <p>6. Os tubarões possuem ossos em seus corpos?</p>
+          <label><input type="radio" name="q18" value="0" /> Sim</label>
+          <label><input type="radio" name="q18" value="1" /> Não</label>
+          <label
+            ><input type="radio" name="q18" value="2" /> Apenas na cabeça</label
+          >
+          <label
+            ><input type="radio" name="q18" value="3" /> Apenas nas
+            barbatanas</label
+          >
+        </div>
+
+        <div class="question">
+          <p>7. Qual dessas espécies tem a mordida mais forte registrada?</p>
+          <label
+            ><input type="radio" name="q19" value="0" /> Tubarão-mako</label
+          >
+          <label
+            ><input type="radio" name="q19" value="1" /> Tubarão-branco</label
+          >
+          <label
+            ><input type="radio" name="q19" value="2" /> Tubarão-tigre</label
+          >
+          <label
+            ><input type="radio" name="q19" value="3" /> Tubarão-touro</label
+          >
+        </div>
+
+        <div class="question">
+          <p>
+            8. Qual é a principal razão pela qual os tubarões são caçados por
+            humanos?
+          </p>
+          <label><input type="radio" name="q20" value="0" /> Pele</label>
+          <label><input type="radio" name="q20" value="1" /> Dentes</label>
+          <label><input type="radio" name="q20" value="2" /> Nadadeiras</label>
+          <label
+            ><input type="radio" name="q20" value="3" /> Órgãos internos</label
+          >
+        </div>
+
+        <div class="question">
+          <p>
+            9. Qual tubarão é capaz de modificar sua temperatura corporal para
+            se adaptar a diferentes ambientes?
+          </p>
+          <label
+            ><input type="radio" name="q21" value="0" /> Tubarão-mako</label
+          >
+          <label
+            ><input type="radio" name="q21" value="1" /> Tubarão-tigre</label
+          >
+          <label
+            ><input type="radio" name="q21" value="2" /> Tubarão-branco</label
+          >
+          <label
+            ><input type="radio" name="q21" value="3" /> Tubarão-baleia</label
+          >
+        </div>
+
+        <div class="question">
+          <p>10. Qual espécie de tubarão pode viver por mais de 400 anos?</p>
+          <label
+            ><input type="radio" name="q22" value="0" /> Tubarão-martelo</label
+          >
+          <label
+            ><input type="radio" name="q22" value="1" />
+            Tubarão-da-Groenlândia</label
+          >
+          <label
+            ><input type="radio" name="q22" value="2" /> Tubarão-branco</label
+          >
+          <label
+            ><input type="radio" name="q22" value="3" /> Tubarão-azul</label
+          >
+        </div>
+
+        <button type="submit" onclick="verificarRespostas()">Enviar</button>
+        <div class="resultado" id="resultado"></div>
       </form>
-
-      <button id="next-button" onclick="nextQuestion()" style="display: none">
-        Próxima Pergunta
-      </button>
     </div>
-    <button id="voltar-button" onclick="menu()">Voltar para Menu!</button>
-    <script src="dificil.js"></script>
+    <button id="Voltar" onclick="menu()">Voltar para Menu!</button>
+    <script src="facil.js"></script>
   </body>
 </html>
