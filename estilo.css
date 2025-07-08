@@ -19,7 +19,7 @@
       font-family:Times New Roman;
       align-items: center;
       font-size: larger;
-      background-image: "/tuba4k.jpg";
+      background-image: url(/tuba4k.jpg);
       background-repeat: no-repeat;
       background-size: 100%;
     }
